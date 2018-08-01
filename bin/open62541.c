@@ -1027,7 +1027,7 @@ UA_findDataTypeByBinary(const UA_NodeId *typeId);
 /*********************************** amalgamated original file "/home/travis/build/open62541/open62541/build/src_generated/ua_types_generated_encoding_binary.h" ***********************************/
 
 /* Generated from Opc.Ua.Types.bsd with script /home/travis/build/open62541/open62541/tools/generate_datatypes.py
- * on host travis-job-58e35654-0d0b-419b-8d10-2d50a5ceef65 by user travis at 2018-06-12 07:22:43 */
+ * on host travis-job-58e35654-0d0b-419b-8d10-2d50a5ceef65 by user travis at 2018-06-12 07:23:58 */
 
 
 /* Boolean */
@@ -3023,7 +3023,7 @@ UA_QueryFirstRequest_decodeBinary(const UA_ByteString *src, size_t *offset, UA_Q
 /*********************************** amalgamated original file "/home/travis/build/open62541/open62541/build/src_generated/ua_transport_generated.h" ***********************************/
 
 /* Generated from Opc.Ua.Types.bsd, Custom.Opc.Ua.Transport.bsd with script /home/travis/build/open62541/open62541/tools/generate_datatypes.py
- * on host travis-job-58e35654-0d0b-419b-8d10-2d50a5ceef65 by user travis at 2018-06-12 07:22:43 */
+ * on host travis-job-58e35654-0d0b-419b-8d10-2d50a5ceef65 by user travis at 2018-06-12 07:23:58 */
 
 
 #ifdef __cplusplus
@@ -3200,7 +3200,7 @@ typedef struct {
 /*********************************** amalgamated original file "/home/travis/build/open62541/open62541/build/src_generated/ua_transport_generated_handling.h" ***********************************/
 
 /* Generated from Opc.Ua.Types.bsd, Custom.Opc.Ua.Transport.bsd with script /home/travis/build/open62541/open62541/tools/generate_datatypes.py
- * on host travis-job-58e35654-0d0b-419b-8d10-2d50a5ceef65 by user travis at 2018-06-12 07:22:43 */
+ * on host travis-job-58e35654-0d0b-419b-8d10-2d50a5ceef65 by user travis at 2018-06-12 07:23:58 */
 
 
 #ifdef __cplusplus
@@ -3532,7 +3532,7 @@ UA_SecureConversationMessageHeader_delete(UA_SecureConversationMessageHeader *p)
 /*********************************** amalgamated original file "/home/travis/build/open62541/open62541/build/src_generated/ua_transport_generated_encoding_binary.h" ***********************************/
 
 /* Generated from Opc.Ua.Types.bsd, Custom.Opc.Ua.Transport.bsd with script /home/travis/build/open62541/open62541/tools/generate_datatypes.py
- * on host travis-job-58e35654-0d0b-419b-8d10-2d50a5ceef65 by user travis at 2018-06-12 07:22:43 */
+ * on host travis-job-58e35654-0d0b-419b-8d10-2d50a5ceef65 by user travis at 2018-06-12 07:23:58 */
 
 
 /* SecureConversationMessageAbortBody */
@@ -8484,7 +8484,7 @@ UA_calcSizeBinary(void *p, const UA_DataType *type) {
 /*********************************** amalgamated original file "/home/travis/build/open62541/open62541/build/src_generated/ua_types_generated.c" ***********************************/
 
 /* Generated from Opc.Ua.Types.bsd with script /home/travis/build/open62541/open62541/tools/generate_datatypes.py
- * on host travis-job-58e35654-0d0b-419b-8d10-2d50a5ceef65 by user travis at 2018-06-12 07:22:43 */
+ * on host travis-job-58e35654-0d0b-419b-8d10-2d50a5ceef65 by user travis at 2018-06-12 07:23:58 */
 
 
 /* Boolean */
@@ -16486,7 +16486,7 @@ const UA_DataType UA_TYPES[UA_TYPES_COUNT] = {
 /*********************************** amalgamated original file "/home/travis/build/open62541/open62541/build/src_generated/ua_transport_generated.c" ***********************************/
 
 /* Generated from Opc.Ua.Types.bsd, Custom.Opc.Ua.Transport.bsd with script /home/travis/build/open62541/open62541/tools/generate_datatypes.py
- * on host travis-job-58e35654-0d0b-419b-8d10-2d50a5ceef65 by user travis at 2018-06-12 07:22:43 */
+ * on host travis-job-58e35654-0d0b-419b-8d10-2d50a5ceef65 by user travis at 2018-06-12 07:23:58 */
 
 
 /* SecureConversationMessageAbortBody */

@@ -3219,7 +3219,7 @@ deprecatedDateTimeMultiple(double multiple) {
 /*********************************** amalgamated original file "/home/travis/build/open62541/open62541/build/src_generated/ua_types_generated.h" ***********************************/
 
 /* Generated from Opc.Ua.Types.bsd with script /home/travis/build/open62541/open62541/tools/generate_datatypes.py
- * on host travis-job-58e35654-0d0b-419b-8d10-2d50a5ceef65 by user travis at 2018-06-12 07:22:43 */
+ * on host travis-job-58e35654-0d0b-419b-8d10-2d50a5ceef65 by user travis at 2018-06-12 07:23:58 */
 
 
 #ifdef __cplusplus
@@ -5907,7 +5907,7 @@ typedef UA_Double UA_Duration;
 /*********************************** amalgamated original file "/home/travis/build/open62541/open62541/build/src_generated/ua_types_generated_handling.h" ***********************************/
 
 /* Generated from Opc.Ua.Types.bsd with script /home/travis/build/open62541/open62541/tools/generate_datatypes.py
- * on host travis-job-58e35654-0d0b-419b-8d10-2d50a5ceef65 by user travis at 2018-06-12 07:22:43 */
+ * on host travis-job-58e35654-0d0b-419b-8d10-2d50a5ceef65 by user travis at 2018-06-12 07:23:58 */
 
 
 #ifdef __cplusplus
