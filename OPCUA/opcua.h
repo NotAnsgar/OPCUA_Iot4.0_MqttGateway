@@ -9,8 +9,8 @@ class opcua : public QObject
 {
     Q_OBJECT
 public:
-    explicit opcua(QObject *parent = 0);
-    ~opcua();
+    static opcua &shared_instance() {static opcua OPCUA; return OPCUA;}
+
 
     void stopHandler(int sign);
     static void addUarmObject(UA_Server *server);
@@ -24,6 +24,8 @@ signals:
 public slots:
     void opcua_thread();
 private:
+    explicit opcua(QObject *parent = 0);
+     ~opcua();
     UA_ServerConfig *config;
     UA_Server *server;
 

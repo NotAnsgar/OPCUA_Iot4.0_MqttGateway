@@ -10,7 +10,6 @@
 #include <mosquitto.h>
 #include <unistd.h>
 #include "controller.h"
-//include "mqtt/async_client.h"
 
 using namespace std;
 
@@ -52,7 +51,7 @@ int main(int argc, char *argv[])
     while(true)
     {
         sleep(1);
-        printf(".");
+        //printf('.');
     }
     return 0;
 }

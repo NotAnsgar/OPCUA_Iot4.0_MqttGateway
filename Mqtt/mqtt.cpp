@@ -91,6 +91,7 @@ void Mqtt::mosq_log_callback(struct mosquitto *mosq, void *userdata, int level, 
 
 int Mqtt::mqtt_send(QString msg){
   return mosquitto_publish(mosq, NULL, topic, msg.toStdString().length(), (char*) msg.toStdString().c_str(), 0, 0);
+
 }
 
 int Mqtt::mqtt_send_topic(QString msg, QString topic){

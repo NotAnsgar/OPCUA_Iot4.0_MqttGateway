@@ -41,7 +41,7 @@ UA_StatusCode opcua::car1Callback(UA_Server *server,
     UA_Variant_setScalarCopy(output, &tmp, &UA_TYPES[UA_TYPES_STRING]);
     UA_String_deleteMembers(&tmp);
     UA_LOG_INFO(UA_Log_Stdout, UA_LOGCATEGORY_SERVER, "car 1 in production");
-    //emit publishTopic("1","UARM");
+    emit opcua::shared_instance().publishTopic("1","UARM");
     return UA_STATUSCODE_GOOD;
 }
 
@@ -61,7 +61,7 @@ opcua::car2Callback(UA_Server *server,
     UA_Variant_setScalarCopy(output, &tmp, &UA_TYPES[UA_TYPES_STRING]);
     UA_String_deleteMembers(&tmp);
     UA_LOG_INFO(UA_Log_Stdout, UA_LOGCATEGORY_SERVER, "car 2 in production");
-    //emit publishTopic("2","UARM");
+    emit opcua::shared_instance().publishTopic("2","UARM");
     return UA_STATUSCODE_GOOD;
 }
 

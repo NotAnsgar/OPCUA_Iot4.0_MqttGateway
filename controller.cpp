@@ -22,7 +22,7 @@ void Controller::setContextProperty(QQmlContext context)
 void Controller::settingupOPCUA()
 {
     m_opcuaThread = new QThread;
-    m_opcua = new opcua();
+    m_opcua = &opcua::shared_instance();
     m_opcua->moveToThread(m_opcuaThread);
 
    connect(m_opcuaThread, SIGNAL(started()), m_opcua, SLOT(opcua_thread()));
